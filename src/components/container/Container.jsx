@@ -7,7 +7,7 @@ import SetLineWidth from './SetLineWidth'
 import LineTool from './LineTool';
 import Clear from './Clear';
 import Pencil from './Pencil';
-
+import SnapShot from './SnapShot';
 
 class Container extends React.Component
 {
@@ -26,6 +26,9 @@ class Container extends React.Component
 
                 <div className="Undo-btn resize">
                     <Undo/>
+                </div>
+                <div className="Undo-btn resize">
+                    <SnapShot/>
                 </div>
                 <div className="Redo-btn resize">
                     <Pencil/>
